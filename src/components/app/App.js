@@ -1,13 +1,20 @@
-import logo from './logo.svg';
+import React from 'react'
 import './App.css';
+import SignUp from '../sessions/SignUp'
+import {Link} from "react-router-dom"
+
+
+
+(function debug(){
+  document.addEventListener('click', (e) => {
+
+  });
+})();
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-      </header>
+    <div>
+      Hi
     </div>
   );
 }

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom'
-import { Link } from 'react-router-com'
+import { Link } from 'react-router-dom'
 
-function Login(){
+function SignUp(){
    return (
       <div>
-         
+         <h3>myFiance</h3>
       </div>
    )
 }
 
-export default (Login);
+export default (SignUp);

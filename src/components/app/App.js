@@ -14,7 +14,7 @@ import {Link} from "react-router-dom"
 function App() {
   return (
     <div>
-      Hi
+      App
     </div>
   );
 }
